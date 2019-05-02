@@ -4,7 +4,7 @@ This repo has a single version of tensorflow available for offline install and s
 First, install tensorflow:
 
 ```
-pip install ./wheels/tensorflow-1.13.1-cp37-cp37m-macosx_10_11_x86_64.whl --find-links ./wheels
+pip3 install --no-index ./wheels/tensorflow-1.13.1-cp37-cp37m-macosx_10_11_x86_64.whl --find-links ./wheels
 ```
 
 It may seem sad that it's offline but it should finish successfully if you're patient.
